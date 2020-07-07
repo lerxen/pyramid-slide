@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>pyramid</title>
+    <link rel="stylesheet" href="mario.css">
+  </head>
+  <body>
+    <h1>Pyramid Slide</h1>
+    <h3>Behold this wonderful pyramid:</h3>
+    <div class='content'>
+      <div class='forms'>
+        <form>
+          <label for='symbol'>Brick Symbol:</label>
+          <select id='symbol' name='symbol' onchange="changePyr()">
+            <option value='#'>#</option>
+            <option value='@'>@</option>
+            <option value='X'>X</option>
+            <option value='$'>$</option>
+          </select>
+        </form>
+        <form>
+          <label for='height'>How high?</label>
+          <input type='range' id='height' name='height' min='1' max='20' oninput="showValue()">
+          <label for='height' id='inputValue'><strong>value</strong></label>
+        </form>
+      </div>
+      <div id="pyramid">
+        <!-- Our pyramid will go inside here -->
+        <div id="construction">
+          <p>Uh oh! the pyramid is still under construction.</p>
+          <p>Check back again soon... our developers are hard at wrk as we speak!</p>
+        </div>
+      </div>
+    </div>
+    <script src="mario.js"></script>
+  </body>
+
+﻿</html>

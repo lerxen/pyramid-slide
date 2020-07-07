@@ -1,0 +1,38 @@
+#pyramid {
+  font-family: "Courier New", monospace;
+  line-height: 0;
+  color: #b36093;
+  font-size: 30px;
+}
+.content {
+  border: 2px solid #b36093;
+  border-radius: 3px;
+  text-align: center;
+}
+h1 {
+  background: #b36093;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Courier New", monospace;
+}
+h3 {
+  text-align: center;
+  color: #b36093;
+  font-family: "Courier New", monospace;
+}
+form {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.forms {
+  font-family: "Courier New", monospace;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 30px 0;
+}
+#inputValue {
+  font-weight: 600;
+}
